@@ -7,11 +7,12 @@ import { ReadNotification } from '@application/use-cases/read-notification';
 import { UnreadNotification } from '@application/use-cases/unread-notification';
 import { CountRecipientNotifications } from '@application/use-cases/count-recipient-notifications';
 import { GetRecipientNotifications } from '@application/use-cases/get-recipient-notifications';
+import { GetAllNotifications } from '@application/use-cases/get-all-notifications';
 
 @Module({
     imports: [DatabaseModule],
     controllers: [NotificationsController],
-    providers: [SendNotification, CancelNotification, ReadNotification, UnreadNotification, CountRecipientNotifications, GetRecipientNotifications]
+    providers: [SendNotification, CancelNotification, ReadNotification, UnreadNotification, CountRecipientNotifications, GetRecipientNotifications, GetAllNotifications]
 
 })
 export class HttpModule{}

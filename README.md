@@ -25,6 +25,9 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is just a simple API following an Nest focused Ignite Lab, offered by Rocketseat (thanks a lot, Diego!).
+Languages and Technologies I used here: Node.js, Nestjs, TypeScript, Prisma ORM, SQLite and Jest.
+
 
 ## Installation
 

@@ -8,6 +8,7 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
       log: ['query']
     })
   }
+  // Remover o super() acima para eliminar os logs do prisma no console
   async onModuleInit() {
     await this.$connect();
   }
